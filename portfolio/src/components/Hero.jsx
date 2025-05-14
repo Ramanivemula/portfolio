@@ -5,7 +5,7 @@ import resume from '../assets/FullStack_Ramani.pdf';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-slate-900 px-4 py-2">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-slate-900 px-4 py-2">
       <div className="bg-slate-800 rounded-3xl shadow-xl p-10 w-full max-w-6xl flex flex-col md:flex-row justify-between items-center">
         {/* LEFT SIDE */}
         <div className="md:w-1/2 space-y-6 text-center md:text-left">

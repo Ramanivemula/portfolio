@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import projectData from "../data/projectData";
 import ProjectModal from "./ProjectCard";
 
-export default function Project() {
+export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (

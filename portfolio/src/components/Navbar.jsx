@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Nav Links */}
         <ul className="hidden md:flex space-x-8 font-medium text-slate-200 text-sm">
           <li>
-            <a href="#Hero" className="hover:text-cyan-400 transition">Home</a>
+            <a href="#hero" className="hover:text-cyan-400 transition">Home</a>
           </li>
           <li>
             <a href="#about" className="hover:text-cyan-400 transition">About</a>
@@ -22,7 +22,7 @@ export default function Navbar() {
             <a href="#skills" className="hover:text-cyan-400 transition">Skills</a>
           </li>
           <li>
-            <a href="#Projects" className="hover:text-cyan-400 transition">Projects</a>
+            <a href="#projects" className="hover:text-cyan-400 transition">Projects</a>
           </li>
           <li>
             <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
