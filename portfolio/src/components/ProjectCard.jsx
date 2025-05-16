@@ -8,7 +8,7 @@ export default function ProjectModal({ project, onClose }) {
       <div className="bg-slate-800 text-white rounded-2xl shadow-lg p-6 max-w-lg w-full relative">
         <button
           onClick={onClose}
-          className="absolute top-3 right-4 text-slate-300 hover:text-white text-xl"
+          className="absolute top-1 right-2 text-white hover:text-white text-2xl"
         >
           &times;
         </button>

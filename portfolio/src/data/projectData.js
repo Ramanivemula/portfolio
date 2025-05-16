@@ -1,55 +1,65 @@
-import Food from '../assets/Food.png'
-import Code from '../assets/Code.png'
-import Quiz from '../assets/Quiz.png'
-import Notes from '../assets/Notes.png'
-import Botpress from '../assets/Botpress.png'
+import Tourism from "../assets/Tourism.png"; // Replace with your actual images
+import PlasticWaste from "../assets/PlasticWaste.png";
+import QuizApp from "../assets/Quiz.png";
+import BlogPlatform from "../assets/Blog.png";
+import NutriTrack from "../assets/Food.png";
+import CodeShare from "../assets/Code.png";
 
 const projectData = [
   {
-    title: "Food Nutrition – NutriTrack",
-    image: Food,
+    title: "Tourism Website – INDIA",
+    image: Tourism,
     description:
-      "A responsive MERN-stack app offering personalized dietary suggestions using user inputs. Integrated 3rd-party nutrition APIs, styled with HTML5/CSS3, and built reusable React components.",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "CSS3", "Postman", "GitHub"],
-    github: "https://github.com/Ramanivemula/Food_Nutrition",
-    live: ""
-  },
-  {
-    title: "CodeShare – Real Time Collaboration",
-    image: Code,
-    description:
-      "A real-time collaboration platform to create rooms and code together. Integrated Socket.io for real-time communication and MongoDB for persistent storage.",
-    stack: ["React", "Socket.IO", "Node.js", "MongoDB", "Express", "GitHub"],
-    github: "https://github.com/shiv-1540/CodeSharePlatform",
-    live: ""
-  },
-  {
-    title: "Quiz App",
-    image: Quiz,
-    description:
-      "Full-stack quiz application using MERN. Features authentication, quiz generation, and results with REST APIs. UI styled using Tailwind CSS.",
-    stack: ["React.js", "Tailwind", "Node.js", "Express.js", "MongoDB", "GitHub"],
-    github: "https://github.com/Ramanivemula/SE_QuizApp",
-    live: ""
-  },
-  {
-    title: "Notes App",
-    image: Notes,
-    description:
-      "Secure notes application with CRUD functionality. Uses React + Node + Express + MongoDB. Features login, real-time updates, and Material-UI styling.",
-    stack: ["React.js", "Material UI", "Node.js", "Express", "MongoDB", "Postman"],
-    github: "https://github.com/Ramanivemula/NotesApp",
-    live: ""
-  },
-  {
-    title: "AI-Powered ERP Chatbot",
-    image: Botpress,
-    description:
-      "An AI chatbot built with Botpress to integrate with college ERP. Automates queries like placements, attendance, fees, and course tracking.",
-    stack: ["Botpress", "JavaScript", "HTML", "CSS"],
+      "Responsive website showcasing Indian travel destinations with clear layout, visual hierarchy, and intuitive navigation. Focused on user-first layout and optimized usability.",
+    stack: ["Figma", "UI/UX Design", "Responsive Design"],
     github: "",
-    live: ""
-  }
+    live: "https://www.figma.com/file/weDkoX53dBKRcIXTaExI5s/Tourisum--website-INDIA-",
+  },
+  {
+    title: "Plastic Waste Management – Awareness Website",
+    image: PlasticWaste,
+    description:
+      "Informational layout focused on educating users about plastic waste using clear typography, icons, and layout flow to deliver environmental messaging effectively.",
+    stack: ["Figma", "Typography", "Visual Design"],
+    github: "",
+    live: "https://www.figma.com/file/Mdyw59hdWUFzWhR9JmKCe2/EVS",
+  },
+  {
+    title: "Quiz App – Interactive Prototype",
+    image: QuizApp,
+    description:
+      "Interactive quiz app prototype with structured user flow, dynamic navigation, and clean mobile-first layout. Demonstrated feedback, interactive states, and responsive UI.",
+    stack: ["Figma", "Prototyping", "UX Flow"],
+    github: "https://github.com/Ramanivemula/SE_QuizApp",
+    live: "",
+  },
+  {
+    title: "Blog Platform UI",
+    image: BlogPlatform,
+    description:
+      "Minimal card-based blog interface emphasizing readability and clean navigation. Applied principles of spacing, modular layout, and UX clarity.",
+    stack: ["Figma", "Wireframing", "UI Design"],
+    github: "",
+    live: "https://www.figma.com/file/ZRy33ZwQK17RtW0yyxbEZt/BLOGS",
+  },
+  {
+    title: "Food Nutrition – NutriTrack",
+    image: NutriTrack,
+    description:
+      "MERN-stack app providing personalized dietary suggestions based on user health inputs. Focused on clean UI and responsive frontend layout.",
+    stack: ["React.js", "JavaScript", "CSS3", "MongoDB"],
+    github: "https://github.com/Ramanivemula/Food_Nutrition",
+    live: "",
+  },
+  {
+    title: "CodeShare – Real-Time Collaboration Platform",
+    image: CodeShare,
+    description:
+      "Real-time coding collaboration tool with live chat and file sharing. Implemented responsive UI, project room logic, and backend integrations.",
+    stack: ["React.js", "HTML5", "CSS3", "MongoDB"],
+    github: "https://github.com/shiv-1540/CodeSharePlatform",
+    live: "",
+  },
 ];
 
 export default projectData;
